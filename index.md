@@ -5,10 +5,8 @@ Durant cette semaine, j'ai eu la chance de pouvoir voir le systeme informatique 
 
 
 De plus j'ai aussi appris a configuré un par feu (model cisco asa 5505) pour l'inseret dans un reseaux bien particulié.J'ai donc utuliser internet pour m'informer et aussi eu l'aide de mon tuteur cependant j'ai appris que il faut connecter un cacle RJ45 à un des ports du firewall puis j'ai utulisé le logiciel PuTTY pour me connecter au ligne de commande en passant par le port COM ensuite j'ai configurer tel sorte à avoir un réseaux et que le firewall soit une passeral (reseaux 192.168.2.0/24) pour que à la fin je telecharge CISCO ASDM et configurer le par feu.
-
-<img src="Capture.PNG">
 <img src="Capture2.PNG">
-<img src="Capture4.PNG">
+
 À la fin de la semaine j'ai entamé le second projet c'est de crée un GLPI possedant les options de gestion de tikets et l'inventory pour gerer les services de Pamandzi, Labattoir et de la CCPT. Mais j'ai dabord enchainer sur un travail de recherche pour bien choisir la distribution adapter et aussi m'informer sur les options qui doivent etre instaler avec GLPI et utuliser anterieurement.
 ### Markdown
 
