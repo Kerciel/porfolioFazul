@@ -1,17 +1,23 @@
 **PORFOLIO DE L'ETUDIANT ABDOU FAZUL**
 ### cv:
 **ABDOU Fazul**
+
 Né le 26/07/200
 
-1 b rue du tennis 
+1 b rue du tennis
+ 
 97615 Labattoir 
 
 e-mail:abdou.fazul.97610.97610@gmail.com
+
 Tél: 0639650655
 
 
 ## Diplome:
+
+
 ![image diplome](index4.jpeg)
+
 
 **2019** Lycée de Younousa Bamana:
 	Validation de la 1er année du BTS SIO
