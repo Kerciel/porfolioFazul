@@ -1,6 +1,48 @@
-## cv:
-## STAGE:
-## Détail stage:
+**PORFOLIO DE L'ETUDIANT ABDOU FAZUL**
+### cv:
+**ABDOU Fazul**
+Né le 26/07/200
+1 b rue du tennis 
+97615 Labattoir 
+e-mail:abdou.fazul.97610.97610@gmail.com
+Tél: 0639650655
+
+
+##Diplome:
+**2019** Lycée de Younousa Bamana:
+	Validation de la 1er année du BTS SIO
+**2018** Lycée de Petite-Terre:
+	Bac S mention assez bien en Terminal S spécialité ISN
+**2014** Collége Boueni-M'titi:
+	Brevet national en 3éme
+
+## Competance :
+-Maitice le Pack Office
+-Maitrice le langage Python(utulisation de Pygames)
+-Maitrice HTML
+-Maitrice le langage JAVA
+-Maitrice de Jekyll, d'un blog, site web
+-Maitrice des OS Lunix, Unbuntu et Windows
+-Maitrice du serveurs
+-Maitrice des basses de données et SQL
+-Mairice de la virtualisation de Paket Tracer 
+-Maitrice de GLPI( gestion des insidents)
+
+## langage:
+**Anglais**:
+>Intérmédiaire
+**Espagnole**:
+>Niveau Moyen
+
+## Centre d'Interet:
+Football
+Basketball
+Natation(moyen)
+Handball
+
+
+### STAGE BTS Service informatique des organisations:
+## Détail stage 1er année:
 **1er semaine(lundi 8 au vendredi 12 avril):**
 
 Durant cette semaine, j'ai eu la chance de pouvoir voir le systeme informatique et des équipements tel que des serveurs, switch, firewall et onduleurs. J'ai alors eu une 1er mission de reconnaitre les cables des switchs en trouvant chaque VLAN qui est sur chaque port du switch. Pour realiser cela j ai utulisé le logiciel du switch D-LINK pour trouver les VLAN de chaque port et ainsi leurs données un couleurs à chaque cable RJ45 pour idantifiant les VLANS ou elles se situent et identifieés les cables didiés au chaque VLAN.
