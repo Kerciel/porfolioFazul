@@ -11,33 +11,53 @@ Tél: 0639650655
 ##Diplome:
 **2019** Lycée de Younousa Bamana:
 	Validation de la 1er année du BTS SIO
+
+
 **2018** Lycée de Petite-Terre:
 	Bac S mention assez bien en Terminal S spécialité ISN
+
+
 **2014** Collége Boueni-M'titi:
 	Brevet national en 3éme
 
 ## Competance :
--Maitice le Pack Office
+-Maitice le Pack Office.
+
 -Maitrice le langage Python(utulisation de Pygames)
+
 -Maitrice HTML
+
 -Maitrice le langage JAVA
--Maitrice de Jekyll, d'un blog, site web
+
+-Maitrice de Jekyll, d'un blog, site web*
+
 -Maitrice des OS Lunix, Unbuntu et Windows
+
 -Maitrice du serveurs
+
 -Maitrice des basses de données et SQL
+
 -Mairice de la virtualisation de Paket Tracer 
+
 -Maitrice de GLPI( gestion des insidents)
 
 ## langage:
 **Anglais**:
->Intérmédiaire
+
+`Intérmédiaire`
+
 **Espagnole**:
->Niveau Moyen
+
+`Niveau Moyen`
+
 
 ## Centre d'Interet:
 Football
+
 Basketball
+
 Natation(moyen)
+
 Handball
 
 
@@ -54,11 +74,13 @@ De plus j'ai aussi appris a configuré un par feu (model cisco asa 5505) pour l'
 
 
 À la fin de la semaine j'ai entamé le second projet c'est de crée un GLPI possedant les options de gestion de tikets et l'inventory pour gerer les services de Pamandzi, Labattoir et de la CCPT. Mais j'ai dabord enchainer sur un travail de recherche pour bien choisir la distribution adapter et aussi m'informer sur les options qui doivent etre instaler avec GLPI et utuliser anterieurement.
+![image GLPI](Capture du 2019-05-15 10-41-01.png)
+
 
 **2émé semaine(lundi 15 au vendredi 19 avril):**
 
 Dans cette semaine j'ai pu assisté à une formation informatique sur l'utulisation de certain materiel informatique comme l'utulisation du SAN , des serveurs , VWWARE ,Vsphere qui était dedié au service informatique. J'ai pu decouvrire d'autre module de VM , j'ai pu aussi participer dans cette formation durant certain exercice qui été donner.
-
+![image VMWARE](unnamed.png)
 
 
 Et à la fin de la semaine j'ai entamer le projet principale du stage il s'agit de GLPI cependant il fallait faire un travail de recherche pour bien me decumenter.
@@ -73,10 +95,19 @@ En debut de la semaine j'ai continuer sur mon travail de recherche puisque je ne
 **4éme semaine(lundi 29 avril au vendredi 3 mai):**
 
 En debut de semaine j'ai commencé le projet en partant une distribution E.o.N qui en barque la distribution GLPI c est une distribution LUNIX, j'ai aussi pu apprendre à configurer le GLPI créer en utilisant des tuto sur youtube pour configurer le GLPI avec un active directory et aussi realiser la configuration pour la gestion des tikets puis j'ai voulu integret une fonction sur GLPI pour ameliorer une certaine fonctionnalite mais il y a eu un probleme puisque la version du GLPI ne pouvait pas utiliser les Pluging de GLPI. 
+
+![image glpi4](Capture du 2019-05-15 10-48-25.png)
+
 Ainsi je suis repartie pour utiliser la distribution debian sur GLPI en creyant une machine Virtuel pour continuer le projet en repartant de Zero.
+![image GLPI2](Capture du 2019-05-15 10-44-28.png)
+
+
+![ image glpi3 ](Capture du 2019-05-15 10-46-13.png)
 
 
 **5éme semaine (lundi 6 au vendredi 10 mai):**
 
 
-Durant cette semaine j'ai rencontrainé plusieurs problémes concernant la finalisation de projet à commencer par le téléchargement d'un outil qui fonctionne avec GLPI, c'est OCS Inventory.
+Durant cette derniere semaine j'ai rencontrainé plusieurs problémes concernant la finalisation de projet à commencer par le téléchargement d'un outil qui fonctionne avec GLPI, c'est OCS Inventory. Suite au nombre probléme rencontrer on a decidé d'utiliser un autre outil qui remplace OCS Inventory c est fusionInventory 
+![image fusion](index3.png)
+également j'ai fait un documment word pour leurs laisser des traces pour maitricé GLPI et ces outils en leurs donnant aussi les codes administratrateurs pour ce connecter puisque cette plateforme doit etre utiliser dans leurs sociéter et dans les communes de Pamandzi et de Dzaoudzi. 
