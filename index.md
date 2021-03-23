@@ -17,7 +17,8 @@ Tél: 0639650655
 
 
 ![image diplome](index4.jpeg)
-
+**2020** Lycée de Younousa Bamana:
+	Obtention du diplome BTS SIO : Solution d'Infrastructure Systéme et Réseaux
 
 **2019** Lycée de Younousa Bamana:
 	Validation de la 1er année du BTS SIO
@@ -37,7 +38,9 @@ Tél: 0639650655
 
 -Maitrice HTML
 
--Maitrice le langage JAVA
+-Maitrice le langage JAVA, C, C++, PHP, Javascript, Shell, Angular, XML, SVG, XSLT, Ionic, Cordova, CSS
+
+-Maitrice framework (Boostrap, jqueer, angular, javascript, dom)
 
 -Maitrice de Jekyll, d'un blog, site web*
 
@@ -45,7 +48,11 @@ Tél: 0639650655
 
 -Maitrice du serveurs
 
--Maitrice des basses de données et SQL
+-Maitice configuration, installation reseaux 
+
+-Maitrice Active Directory
+
+-Maitrice des basses de donnees et SQL
 
 -Mairice de la virtualisation de Paket Tracer 
 
@@ -121,3 +128,13 @@ Ainsi je suis repartie pour utiliser la distribution debian sur GLPI en creyant 
 Durant cette derniere semaine j'ai rencontrainé plusieurs problémes concernant la finalisation de projet à commencer par le téléchargement d'un outil qui fonctionne avec GLPI, c'est OCS Inventory. Suite au nombre probléme rencontrer on a decidé d'utiliser un autre outil qui remplace OCS Inventory c est fusionInventory 
 ![image fusion](index3.png)
 également j'ai fait un documment word pour leurs laisser des traces pour maitricé GLPI et ces outils en leurs donnant aussi les codes administratrateurs pour ce connecter puisque cette plateforme doit etre utiliser dans leurs sociéter et dans les communes de Pamandzi et de Dzaoudzi. 
+
+## Stage 2eme annee de BTS:
+
+
+
+### Licence profesionnelle de devéloppement de logiciel web et mobile:
+## projet de developpement d'un site e-commerce:
+
+
+## projet developpement d'une application mobile hybride cordova :
