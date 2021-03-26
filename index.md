@@ -135,6 +135,9 @@ Durant cette derniere semaine j'ai rencontrainé plusieurs problémes concernant
 
  Les premieres semaines j'ai d'abord commencer a me documenter pour cela j'ai utiliser ce site : <a href="https://ionicframework.com/docs/angular/overview">clique ici</a> 
 
+Puis j'ai commencé à traiter le projet qui été la realisation d'une application ionic de priérre. Ou tout les données etaient deja presente et créer. Donc il fait les utiliser dans cette application.
+
+<img src="ionic.png"/>
 
 ### Licence profesionnelle de devéloppement de logiciel web et mobile:
 ## projet de developpement d'un site e-commerce:
