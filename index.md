@@ -130,7 +130,10 @@ Durant cette derniere semaine j'ai rencontrainé plusieurs problémes concernant
 également j'ai fait un documment word pour leurs laisser des traces pour maitricé GLPI et ces outils en leurs donnant aussi les codes administratrateurs pour ce connecter puisque cette plateforme doit etre utiliser dans leurs sociéter et dans les communes de Pamandzi et de Dzaoudzi. 
 
 ## Stage 2eme annee de BTS:
+ Pour mon stage de deuxieme année de BTS j'ai fait de la programmation avec IONIC. 
+ Qui été un language de programmation que j'avais pas fait à l'ecole. 
 
+ Les premieres semaines j'ai d'abord commencer a me documenter pour cela j'ai utiliser ce site : <a href="https://ionicframework.com/docs/angular/overview">clique ici</a> 
 
 
 ### Licence profesionnelle de devéloppement de logiciel web et mobile:
