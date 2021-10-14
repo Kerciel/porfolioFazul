@@ -1,0 +1,80 @@
+
+#imgHome{
+    width: 100%;
+    height: 90vh;
+}
+
+
+
+.text_home {
+    font-family: serif;
+    font-style: italic;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 58px;
+    transform: rotate(75deg);
+    
+}
+
+h1,h2{
+    text-shadow: black  1px 1px 2px;
+}
+
+
+
+.flexnav{
+    background-color: #C4C4C4;
+    font-size: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Righteous', cursive;
+    
+}
+
+.presentation{
+    font-family: 'Righteous', cursive;
+    scroll-behavior: smooth;
+    position: absolute;
+    font-size: 40px;
+    top: 120%;
+    left: 50%;
+    color:#000000;
+}
+
+@media screen and (min-width: 800px){
+
+    .text_home {
+        font-family: serif;
+        font-style: italic;
+        position: absolute;
+        top: 55%;
+        left: 25%;
+        font-size: 38px;
+        transform: rotate(55deg);
+        
+    }
+
+    .presentation{
+        font-family: 'Righteous', cursive;
+        scroll-behavior: smooth;
+        position: absolute;
+        font-size: 20px;
+        top: 130%;
+        left: 70%;
+        color:#000000;
+    }
+
+    
+}
+
+
+
+

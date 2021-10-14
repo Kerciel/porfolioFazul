@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<title>Profolio-Fazul</title>
+ 	<link rel="stylesheet" type="text/css" href="index.css">
+
+    
+</head>
+<nav class="flex">
+        <div class="flexnav">
+            <a href="index.htlm"><p>Accueil</p></a>
+            <a href="ex.html"><p>Experiences</p></a>
+            <a href="cv.html"><p>CV</p></a>
+        </div>
+    </nav>
+<body >
+<section>
+<img id="imgHome" src="image/acceuil.jfif"/>
+<div class="text_home">
+    <h1 >Porfolio-Fazul</h1>
+</div>
+
+</a>
+<img id="imgHome" src="image/profil.jfif"/>
+
+<div class="presentation">
+
+<h3> ABDOU Fazul </h3>
+<p>Ne le 26/07/200</p>
+<p>1 b rue du tennis</p>
+<p>97615 Labattoir</p>
+<p>Tel: 0764545376</p>
+</div>
+</section>
+
+</body>
+
+</html>
