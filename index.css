@@ -1,80 +1,89 @@
+/*Document INFORMATION:
+    -Nom document:LOGO
+    -version:1.0.0
+    -Autor:Fazul
+*/
 
-#imgHome{
-    width: 100%;
-    height: 90vh;
-}
+/* COLORS 
+    -default colors text #848F9A
+    -h1                  
+    -h2                  
+    -h3
 
+    -button
+    -button:hover
 
+    -icon               
 
-.text_home {
-    font-family: serif;
-    font-style: italic;
-    position: absolute;
-    top: 35%;
-    left: 10%;
-    font-size: 58px;
-    transform: rotate(75deg);
+    -border
+*/
+
+/* FONT
+    -Default   roboto
+    -subtitle
+
+*/
+
+/* CSS DIRECTORY
+    1.=GLOBAL
+    2.=MAIN
+
+*/
+
+/*GLOBAL
+========================================================*/
+/*MAIN
+========================================================*/
+main{
     
+    animation: pulse 1.3s infinite;
+    border: 1px solid #fff;
+
+}
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 50px rgba(255, 255, 255, 0.01);
+    }
 }
 
-h1,h2{
-    text-shadow: black  1px 1px 2px;
+header, body {
+    animation: apparition 2s ease-out ;
 }
 
-
-
-.flexnav{
-    background-color: #C4C4C4;
-    font-size: 48px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-
-a{
-    text-decoration: none;
-    color:#000000;
-    font-family: 'Righteous', cursive;
-    
-}
-
-.presentation{
-    font-family: 'Righteous', cursive;
-    scroll-behavior: smooth;
-    position: absolute;
-    font-size: 40px;
-    top: 120%;
-    left: 50%;
-    color:#000000;
-}
-
-@media screen and (min-width: 800px){
-
-    .text_home {
-        font-family: serif;
-        font-style: italic;
-        position: absolute;
-        top: 55%;
-        left: 25%;
-        font-size: 38px;
-        transform: rotate(55deg);
-        
+@keyframes apparition {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
     }
 
-    .presentation{
-        font-family: 'Righteous', cursive;
-        scroll-behavior: smooth;
-        position: absolute;
-        font-size: 20px;
-        top: 130%;
-        left: 70%;
-        color:#000000;
+    to {
+        opacity: 1;
+        transform: translateY(0px);
     }
-
-    
 }
 
 
+.btn {
+    animation: nope 3s infinite;
+}
 
-
+@keyframes nope {
+    0% {
+        transform: translateX(0px);
+    }
+    20% {
+        transform: translateX(10px);
+    }
+    40% {
+        transform: translateX(-10px);
+    }
+    60% {
+        transform: translateX(10px);
+    }
+    80% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
