@@ -87,3 +87,16 @@ header, body {
         transform: translateX(0px);
     }
 }
+
+#title {
+    border-radius: 50%;
+    background-color: #000;
+    box-shadow: 0 0 0 0 #000;
+    animation: pulse 1.3s infinite;
+}
+
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 18px rgba(0, 0, 0, 0.01); 
+    }
+}
