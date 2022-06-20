@@ -9,7 +9,8 @@
     <title>Product example · Bootstrap</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/product/">
-
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Roboto+Condensed:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200&display=swap" rel="stylesheet">
     <!-- Bootstrap core CSS -->
 <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -32,112 +33,234 @@
     <!-- Custom styles for this template -->
     <link href="product.css" rel="stylesheet">
   </head>
-  <body>
-    <nav class="site-header sticky-top py-1">
-  <div class="container d-flex flex-column flex-md-row justify-content-between">
-    <a class="py-2" href="#" aria-label="Product">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
-    </a>
-    <a class="py-2 d-none d-md-inline-block" href="index.html">Mes Projets</a>
+  <body   style="color : black; background-color: #0000; font-family: Georgia, 'Times New Roman', Times, serif;">
+    
+    <nav  class="navbar navbar-expand-lg navbar-light bg-dark " >
+      <a class="navbar-brand" href="#" style="color:  #6E49FF; font-size: x-large;">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="index.html" style="color:  #6E49FF;">Projet <span class="sr-only"></a>
+          <a class="nav-link" href="./ressources/CV/ABDOU Fazul (1).pdf" style="color:  #6E49FF;">CV</a>
+          
+        </div>
+      </div>
+      <div class="d-flex flex-row-reverse mr-5" id="btn">
+        <img style="hieght:80px; width:80px;" src="./ressources/images/icons8-laravel-100.png" class="img-fluid" alt="...">
+        <img style="hieght:80px; width:80px; " src="./ressources/images/icons8-symfony-144.png" class="img-fluid" alt="...">
+        <img style="hieght:80px; width:80px; " src="./ressources/images/icons8-mysql-96.png" class="img-fluid" alt="...">
+        <img style="hieght:80px; width:80px;" src="./ressources/images/icons8-php-96.png" class="img-fluid" alt="...">
+        
+      
+      </div>
+    </nav>
+
+
+
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center ">
+  <div class="col-md-5 p-lg-5 mx-auto my-5">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./ressources/images/img-nana.png" class="img-fluid " alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./ressources/images/pzza-eat-home.png" class="img-fluid " alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./ressources/images/cours-boostrap-home.png" class=" img-fluid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./ressources/images/img-apresbac.png" class=" img-fluid" alt="...">
+        </div>
+        
+       
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <h1  class="display-4 font-weight-normal" style="color:  #000; font-family: Georgia, 'Times New Roman', Times, serif;"><span>PORTFOLIO</span> <span>de </span> <span>Fazul</span></h1>
    
   </div>
-</nav>
-
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-  <div class="col-md-5 p-lg-5 mx-auto my-5">
-    <h1 id="title" class="display-4 font-weight-normal">Porfolio de fazul</h1>
-    <p class="lead font-weight-normal">Bienvenu! Ici je vous montre certains de mes projets que j'ai réalisé.</p>
-    <a class="btn btn-outline-secondary" href="#magique">Nombre Magique c#</a>
-    <a class="btn btn-outline-secondary" href="#mobile">Pizzas Mobile</a>
-    <a class="btn btn-outline-secondary" href="#pendule">Jeu de pendule c#</a>
-    <a class="btn btn-outline-secondary" href="#morpion">Jeu de Morpion c#</a>
-    <a class="btn btn-outline-secondary" href="#pizzasweb">Pizzas Web(ASP.NET)</a>
-    <a class="btn btn-outline-secondary" href="#thehtml">Site de thé HTML</a>
-  </div>
-  <div class="product-device shadow-sm d-none d-md-block"></div>
-  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  <div class="product-device shadow-sm d-none d-md-block text-center"> <p class="lead font-weight-normal" style="color:  #6E49FF;">Bienvenu! Ici je vous montre certains de mes projets que j'ai réalisé.</p></div>
+  
 </div>
 
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+<div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+  <div class="my-3 py-3">
+    <img class="img-fluid" alt="html" src="./ressources/images/icons8-c-sharp-logo-2-96.png" />
+  </div>
+</div>
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3" style="color: #6E49FF;">
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" >
     <div class="my-3 py-3">
-      <h2 id="#magique" class="display-5">Nombre Magique c#</h2>
-      <p class="lead">Réalisation d'un jeu de nombre magique. Code Source: <a href="https://github.com/Kerciel/C-/tree/main/Nombremagique">lien</a>.</p>
+      <h2 id="#magique" class="display-5" style="color:  #6E49FF;">Nombre Magique c#</h2>
+      <p class="lead">Réalisation d'un jeu de nombre magique. Code Source: <a class="text-decoration-none " style="color:  #6E49FF;" href="https://github.com/Kerciel/C-/tree/main/Nombremagique"><img  class="img-fluid" src="./ressources/images/icons8-github-64.png" /></a>.</p>
     </div>
     <div class="bg-light shadow-sm mx-auto" style="width: 100%; height: 300px; border-radius: 21px 21px 0 0;">
-    <iframe style="width: 100%; height: 100%;border-radius: 21px 21px 0 0;" src="./ressources/images/C%23_nombremagique.png"></iframe>
+    <iframe class="border-0" style="width: 100%; height: 100%;border-radius: 21px 21px 0 0;" src="./ressources/images/C%23_nombremagique.png"></iframe>
     </div>
   </div>
   <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
     <div class="my-3 p-3">
-      <h2 id="#mobile" class="display-5">Pizzas Mobile</h2>
-      <p class="lead">Réalisation d'une application mobile de pizza avec Xamarin et c#. Code Source: <a href="https://github.com/Kerciel/Xamarin_pizzamama">lien</a>.</p>
+      <h2 id="#mobile" class="display-5" style="color:  #6E49FF;">Pizzas Mobile</h2>
+      <p class="lead">Réalisation d'une application mobile de pizza avec Xamarin et c#. Code Source: <a class="text-decoration-none " style="color:  #6E49FF;" href="https://github.com/Kerciel/Xamarin_pizzamama"><img  class="img-fluid" src="./ressources/images/icons8-github-64.png" /></a>.</p>
     </div>
     <div class="bg-dark shadow-sm mx-auto" style="width: 100%; height: 300px; border-radius: 21px 21px 0 0;">
-      <iframe style="width: 100%; height: 100%;border-radius: 21px 21px 0 0;" src="./ressources/images/xamarin_pizza_eat.png"></iframe>
+      <iframe class="border-0" style="width: 100%; height: 100%;border-radius: 21px 21px 0 0;" src="./ressources/images/xamarin_pizza_eat.png"></iframe>
     </div>
   </div>
 </div>
 
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3" style="color: #6E49FF;">
   <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
     <div class="my-3 p-3">
       <h2 id="#pendule" class="display-5">Jeu de pendule c#</h2>
-      <p  class="lead">Réalisation d'un jeu de penduele. Code source: <a href="https://github.com/Kerciel/C-/tree/main/Projet3">lien</a></p>
+      <p  class="lead">Réalisation d'un jeu de penduele. Code source: <a class="text-decoration-none " style="color:  #6E49FF;" href="https://github.com/Kerciel/C-/tree/main/Projet3"><img  class="img-fluid" src="./ressources/images/icons8-github-64.png" /></a></p>
     </div>
     <div class="bg-dark shadow-sm mx-auto" style="width: 100%; height: 300px; border-radius: 21px 21px 0 0;">
-    <iframe class="img-fluid" style="width: 100%; height: 100%;border-radius: 21px 21px 0 0;" src="./ressources/images/c%23_pendule.png"></iframe>
+    <iframe class="img-fluid border-0" style="width: 100%; height: 100%;border-radius: 21px 21px 0 0;" src="./ressources/images/c%23_pendule.png"></iframe>
     </div>
   </div>
-  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" >
     <div class="my-3 py-3">
-      <h2 id="#morpion" class="display-5">Jeu de Morpion c#</h2>
-      <p class="lead">Réalisation d'un jeu de morpion. Code source: <a href="https://github.com/Kerciel/C-/tree/main/Morpion">lien</a></p>
+      <h2 id="#morpion" class="display-5" style="color:  #6E49FF;">Jeu de Morpion c#</h2>
+      <p class="lead">Réalisation d'un jeu de morpion. Code source: <a class="text-decoration-none " style="color:  #6E49FF;" href="https://github.com/Kerciel/C-/tree/main/Morpion"><img  class="img-fluid" src="./ressources/images/icons8-github-64.png" /></a></p>
     </div>
     <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-      <iframe class="img-fluid" style="width: 100%; height: 100%;border-radius: 21px 21px 0 0;" src="./ressources/images/C%23_morpion.png"></iframe>
+      <iframe class="img-fluid border-0" style="width: 100%; height: 100%;border-radius: 21px 21px 0 0;" src="./ressources/images/C%23_morpion.png"></iframe>
     </div>
   </div>
 </div>
 
 <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
   <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 p-3">
-      <h2 id="#pizzasweb" class="display-5">Pizzas Web(ASP.NET)</h2>
-      <p class="lead">Code Source: <a class="text-decoration-none" href="https://github.com/Kerciel/Projet_pizza_mama" >lien</a>.C'est un projet pour la conception d'un site de pizzas. Il a été réaliser en ASP.Net et c#. Il est egalement en ligne voici le lien <a class="text-decorate-none" href="https://pizzamamafzl.azurewebsites.net/">https://pizzamamafzl.azurewebsites.net/</a> </p>
+    <div class="row">
+    <div class=" col-12 col-lg-4 my-3 p-3">
+      <h2 id="#pizzasweb" class="display-5" style="color: #6E49FF;">Pizzas Web(ASP.NET)</h2>
+      <p class="lead">Code Source: <a class="text-decoration-none  " style="color: #6E49FF;" href="https://github.com/Kerciel/Projet_pizza_mama" ><img  class="img-fluid" src="./ressources/images/icons8-github-64.png" /></a>.C'est un projet pour la conception d'un site de pizzas. Il a été réaliser en ASP.Net et c#. Il est egalement en ligne voici le lien  <a class="text-decorate-none" style="color: #6E49FF;" href="https://pizzamamafzl.azurewebsites.net/">https://pizzamamafzl.azurewebsites.net/</a> </p>
     </div>
-    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-      <iframe class="img-fluid" style="width: 100%; height: 100%;border-radius: 21px 21px 0 0;" src="https://pizzamamafzl.azurewebsites.net/"></iframe>
+    <div class="col-12 col-lg-8 bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      <iframe class="img-fluid border-0" style="width: 100%; height: 100%;border-radius: 21px 21px 0 0;" src="https://pizzamamafzl.azurewebsites.net/"></iframe>
     </div>
-    </div>
-  </div>
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 py-3">
-      <h2 id="#thehtml" class="display-5">Site de thé HTML</h2>
-      <p class="lead">Site web bootstrap responsive</p>
-    </div>
-    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-    <iframe  style="width: 100%; height: 100%;border-radius: 21px 21px 0 0;" src="https://kerciel.github.io/cours-boostrap/"></iframe>
     </div>
   </div>
+  </div>
+
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" >
+   
+      <div class=" my-auto py-auto">
+        <img class="img-fluid" alt="html" src="./ressources/images/icons8-html-64.png" />
+      </div>
+      <div class=" my-auto py-auto">
+        <img class="img-fluid" alt="bootstrap" src="./ressources/images/icons8-bootstrap-144.png" />
+      </div>
+    
+    
+  </div>
+
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="border: 1px solid #6E49FF; height: 500px;">
+    <div class="my-auto py-auto">
+      <h2 id="#thehtml" class="display-5"  style="color:  #6E49FF;">Site de thé HTML</h2>
+      <p class="lead" style="color:  #6E49FF;">Site web bootstrap responsive</p>
+    </div>
+    
+    <iframe class="border-0"  style="width: 100%; height: 100%;border-radius: 21px 21px 0 0; " src="https://kerciel.github.io/cours-boostrap/"></iframe>
+    
+  </div>
+
+  
+
 </div>
 
+<div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="border-top: 2px solid #6E49FF;" >
+   
+  <div class=" my-auto py-auto row-center">
 
+    <img class="col-auto img-fluid" alt="php" src="./ressources/images/icons8-php-96.png" />
+    <img class="col-auto img-fluid" alt="php" src="./ressources/images/icons8-mysql-96.png" />
+  </div>
+  
+</div>
 
-<footer class="container py-5">
-  <div class="row">
-    <div class="col-12 col-md">
-      
-      <p>Porfolio réaliser par <a href="https://www.linkedin.com/in/fazul-abdou-50b467208/">Fazul </a></p>
+<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 row text-center overflow-hidden nanamove" style="border: 1px solid #6E49FF;">
+ 
+  <div class="col-12 col-lg-10 NANA">
+    <img class="img-fluid " alt="NANA" src="./ressources/images/img-nana.png" />
+    
+  </div>
+  <div class="col-12 col-lg-2">
+    <h2 style="color:  #6E49FF;">Projet N.A.N.A</h2>
+    <div >
+    <a  href="https://github.com/Kerciel/n.a.n.a/tree/main/sitev2"> <img class="img-fluid"  src="./ressources/images/icons8-github-64.png" /> </a>
+    </div>
+  </div>
+  
+    
+  
+</div>
+
+<div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="border-top: 2px solid #6E49FF;" >
+   
+  <div class=" my-auto py-auto row-center">
+
+    <img class="col-auto img-fluid" alt="php" src="./ressources/images/icons8-laravel-100.png" />
+    <img class="col-auto img-fluid" alt="php" src="./ressources/images/icons8-mysql-96.png" />
+  </div>
+  
+</div>
+<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 row text-center overflow-hidden nanamove" style="border: 1px solid #6E49FF;">
+ 
+  <div class="col-12 col-lg-10 ">
+    <img class="img-fluid " alt="APRESBAC" src="./ressources/images/img-apresbac.png" />
+    
+  </div>
+  <div class="col-12 col-lg-2">
+    <h2 style="color:  #6E49FF;">Projet APRESBAC version 2</h2>
+    <div >
+    <a  href="https://github.com/Kerciel/NewAPRESBAC"> <img class="img-fluid"  src="./ressources/images/icons8-github-64.png" /> </a>
+    </div>
+  </div>
+  
+    
+  
+</div>
+
+<footer class="container pt-5 " style="color:  #6E49FF;">
+  <div class="row ">
+    <div class="col-12 col-lg-6 text-center">
+        <p>@Portfolio-Fazul2022
+        </p>
+        
+    </div>
+    <div class="col-12 col-lg-6 text-center">
+      <img src="./ressources/images/icons8-iphone-x-24.png" /> : 07.64.54.53.79
+      <img  src="./ressources/images/icons8-accès-au-courrier-sans-fil-24.png" /> : abdou.fazul.97610@gmail.com
+    </div>
+    <div class="col-12">
+      <div class="d-flex justify-content-sm-end ">
+
+      <a href="https://www.linkedin.com/in/fazul-abdou-50b467208/"><img alt="linkedin" src="./ressources/images/icons8-linkedin-48.png" /> </a>
+      <a href="https://github.com/kerciel"> <img alt="Git" src="./ressources/images/icons8-github-64.png" /> </a>
+      </div>
     </div>
 
-    <div class="col-12 col-md">
-      
-      <p>Tout mes projets sont sur  <a href="https://github.com/kerciel">GIT </a></p>
-    </div>
+    
     
   </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+      <script src="app.js"></script>
 </html>
